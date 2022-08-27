@@ -4,6 +4,7 @@
   "description": "Lambda code to stop start instances",
   "main": "index.js",
   "scripts": {
+    "make": "zip -r deploy.zip ./",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
